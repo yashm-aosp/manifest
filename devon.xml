@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device trees -->
+  <project name="yashm-aosp/android_device_motorola_devon_yashm" 
+           path="device/motorola/devon" 
+           remote="github" 
+           revision="lineage-23.2" />
+  <project name="LineageOS/android_device_motorola_sm6225-common" 
+           path="device/motorola/sm6225-common" 
+           remote="github" 
+           revision="lineage-23.2" />
+  
+  <!-- Hardware -->
+  <project name="LineageOS/android_hardware_motorola" 
+           path="hardware/motorola" 
+           remote="github" 
+           revision="lineage-23.2" />
+
+  <!-- Kernel -->
+  <project name="LineageOS/android_kernel_motorola_sm6225" 
+           path="kernel/motorola/sm6225" 
+           remote="github" 
+           revision="lineage-23.2" />
+
+  <!-- Vendor -->
+  <project name="TheMuppets/proprietary_vendor_motorola_sm6225-common" 
+           path="vendor/motorola/sm6225-common" 
+           remote="github" 
+           revision="lineage-23.2" />
+  <project name="TheMuppets/proprietary_vendor_motorola_devon" 
+           path="vendor/motorola/devon" 
+           remote="github" 
+           revision="lineage-23.2" />
+  <project name="tranQuila-Project/vendor_lunaris_dolby" 
+           path="vendor/lunaris/dolby" 
+           remote="github" 
+           revision="lineage-23.2" />
+
+</manifest>
